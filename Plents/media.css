@@ -1,0 +1,357 @@
+/* =========================
+   АДАПТИВ ПОД ТЕЛЕФОН
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* NAVIGATION */
+
+    .Navigation {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    .Navigation > ul {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+        margin: 10px 0 0;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+
+    .Navigation > button {
+        width: 90px;
+        height: 35px;
+    }
+
+
+    /* MAIN */
+
+    .Main-box {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Main-left {
+        width: 100%;
+    }
+
+    .Main-left > p {
+        font-size: 12px;
+    }
+
+    .Main-left > h1 {
+        font-size: 42px;
+        line-height: 110%;
+        margin: 20px 0;
+    }
+
+    .Main-left > button {
+        margin-bottom: 30px;
+    }
+
+    .Main-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Main-right img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .Main-foto2 {
+        max-width: 35% !important;
+    }
+
+
+    /* FLOWER BOX */
+
+    .Flover-box,
+    .Flover-box2,
+    .Flover-box3 {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .Flover-kard,
+    .Flover-kard2,
+    .Flover-kard3 {
+        width: 45%;
+        text-align: center;
+    }
+
+    .Flover-kard > h2,
+    .Flover-kard2 > h2,
+    .Flover-kard3 > h2 {
+        font-size: 18px;
+    }
+
+    .Flover-kard > p,
+    .Flover-kard2 > p,
+    .Flover-kard3 > p {
+        font-size: 18px;
+    }
+
+
+    /* BUTTONS */
+
+    .Flover-buttons {
+        width: 90%;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+
+    /* CACTUS */
+
+    .Cactus-box {
+        width: 90%;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .Cactus-kard,
+    .Cactus-kard2 {
+        width: 100%;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .Cactus-text,
+    .Cactus-text2 {
+        max-width: 250px;
+        margin: 0;
+    }
+
+    .Cactus-text > h2,
+    .Cactus-text2 > h2 {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .Cactus-text > p,
+    .Cactus-text2 > p {
+        font-size: 13px;
+    }
+
+    .Cactus-kard-foto {
+        position: static;
+        max-width: 180px;
+        height: auto;
+    }
+
+
+    /* BLOG */
+
+    .Blog-box > h2 {
+        font-size: 25px;
+        line-height: 100%;
+        margin-top: 70px;
+    }
+
+    .Blog-box > p {
+        font-size: 15px;
+        line-height: 150%;
+        padding: 0 20px;
+    }
+
+    .Blog-box2 {
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .Blog-kard2 {
+        max-width: 45%;
+    }
+
+    .Blog-kard2 > h3 {
+        font-size: 17px;
+    }
+
+
+    /* GARDEN */
+
+    .Garden-big-box {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 70px;
+    }
+
+    .Garden-box {
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .Garden-kard {
+        width: 45%;
+        text-align: center;
+    }
+
+    .Garden-kard > h2 {
+        font-size: 17px;
+    }
+
+    .Garden-kard > p {
+        font-size: 15px;
+    }
+
+
+    /* INPUT */
+
+    .Input-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Input-box > input {
+        width: 60%;
+    }
+
+    .Input-box > button {
+        width: 30%;
+    }
+
+    .Input-box > p {
+        padding: 0 20px;
+    }
+
+
+    /* CONTACT */
+
+    .Conect-box {
+        width: 90%;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .Conect-kard {
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    /* FOOTER */
+
+    .Footer-box {
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .Footer-box > h3 {
+        font-size: 16px;
+    }
+
+    .Copy-box {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
+
+
+/* =========================
+   ОЧЕНЬ МАЛЕНЬКИЙ ТЕЛЕФОН
+   ========================= */
+
+@media (max-width: 480px) {
+
+    .Navigation {
+        justify-content: center;
+    }
+
+    .Navigation > ul {
+        gap: 12px;
+        font-size: 12px;
+    }
+
+
+    .Main-left > h1 {
+        font-size: 32px;
+    }
+
+
+    .Flover-box,
+    .Flover-box2,
+    .Flover-box3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Flover-kard,
+    .Flover-kard2,
+    .Flover-kard3 {
+        width: 100%;
+    }
+
+
+    .Cactus-kard,
+    .Cactus-kard2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Cactus-text,
+    .Cactus-text2 {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .Cactus-text > h2,
+    .Cactus-text2 > h2 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .Cactus-text > p,
+    .Cactus-text2 > p {
+        text-align: center;
+    }
+
+    .Cactus-kard-foto {
+        max-width: 150px;
+    }
+
+
+    .Blog-box2 {
+        flex-direction: column;
+    }
+
+    .Blog-kard2 {
+        max-width: 90%;
+        text-align: center;
+    }
+
+
+    .Garden-box {
+        flex-direction: column;
+    }
+
+    .Garden-kard {
+        width: 100%;
+    }
+
+
+    .Footer-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

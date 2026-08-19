@@ -1,0 +1,6 @@
+.heade-list{
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+    list-style: none;
+}
